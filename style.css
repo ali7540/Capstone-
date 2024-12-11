@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    color:#FFFFFF;
+}
+.page1{
+    height: auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #FFFFFF;
+    height: 4.5vw;
+}
+.glitch h1{
+    font-family:MuseoModerno;
+    font-weight: 500;
+    font-size:2.625vw;
+    margin-left: 3vw;
+    line-height:2.625vw;
+}
+.about{
+    width: 26.5vw;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3vw;
+
+}
+.about p{
+    font-family: chivo;
+    font-size: 1.75vw;
+    font-weight: 400;
+    line-height:2vw;
+    cursor: pointer; 
+}
+.about p a{
+    color: white;
+    text-decoration: none;
+}
